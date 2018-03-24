@@ -11,7 +11,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <img src="https://imgur.com/sWKRPBX" width="800">
+  - [ ] GIF Walkthrough: <img src="https://i.imgur.com/sWKRPBX.gif" width="800">
   - [ ] Steps to recreate: create a new page and insert the following HTML: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
   - [ ] Affected source code: core
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -20,7 +20,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: <img src="https://imgur.com/8ddLXVP" width="800">
+  - [ ] GIF Walkthrough: <img src="https://i.imgur.com/8ddLXVP.gif" width="800">
   - [ ] Steps to recreate: Enter a comment on a page with >64KB of characters, and the comment is truncated, allowing XSS
   - [ ] Affected source code: core
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -29,7 +29,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
-  - [ ] GIF Walkthrough: <img src="https://imgur.com/cMY59Bg" width="800">
+  - [ ] GIF Walkthrough: <img src="https://i.imgur.com/cMY59Bg.gif" width="800">
   - [ ] Steps to recreate: Create file with XSS tags that exceeds file size limit and attempt to upload via new media page
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
